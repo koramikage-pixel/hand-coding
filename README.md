@@ -40,7 +40,7 @@ with mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7) as hands:
 
                 # Jika melambai 3x → anggap salam perkenalan
                 if wave_count >= 3:
-                    cv2.putText(frame, "Halo, nama saya ChatGPT", (50, 100),
+                    cv2.putText(frame, "Halo, nama saya melsen", (50, 100),
                                 cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 3)
                     wave_count = 0  # reset supaya bisa ulang
 
