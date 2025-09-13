@@ -1,0 +1,2 @@
+# hand-coding
+uji coba
